@@ -1,1 +1,2147 @@
-reversed timelineb
+{
+    "objects": [
+        {
+            "type": "sketch",
+            "name": "Sketch1",
+            "data": {
+                "type": "sketch",
+                "reference_plane": {
+                    "type": "construction_plane",
+                    "plane_name": "XZ"
+                },
+                "sketch_curves": [
+                    {
+                        "type": "line",
+                        "curve_name": "Curve0",
+                        "start": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -0.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve1",
+                        "start": [
+                            -3.7,
+                            2.5,
+                            0.0
+                        ],
+                        "end": [
+                            -0.0,
+                            2.5,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve2",
+                        "start": [
+                            -0.0,
+                            2.5,
+                            0.0
+                        ],
+                        "end": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve3",
+                        "start": [
+                            -3.7,
+                            2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -0.1,
+                            2.05,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve4",
+                        "start": [
+                            -0.1,
+                            2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -0.1,
+                            0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve5",
+                        "start": [
+                            -0.1,
+                            0.45,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve6",
+                        "start": [
+                            -3.7,
+                            2.5,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            2.05,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve7",
+                        "start": [
+                            -3.7,
+                            0.45,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -0.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    }
+                ],
+                "sketch_profiles": [
+                    {
+                        "type": "sketch_profile",
+                        "profile_name": "Profile0",
+                        "profile_loops": [
+                            {
+                                "type": "sketch_profile_loop",
+                                "profile_loop_name": "ProfileLoop0",
+                                "curve_names": [
+                                    "Curve0",
+                                    "Curve1",
+                                    "Curve2",
+                                    "Curve3",
+                                    "Curve4",
+                                    "Curve5",
+                                    "Curve6",
+                                    "Curve7"
+                                ],
+                                "is_outer": true
+                            }
+                        ]
+                    }
+                ],
+                "transform": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    -1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "dimensions": [
+                    {
+                        "type": "linear",
+                        "point_one": [
+                            -0.0,
+                            2.5,
+                            0.0
+                        ],
+                        "point_two": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "location": [
+                            2.54415,
+                            1.54562,
+                            0.0
+                        ],
+                        "orientation": "VerticalDimensionOrientation",
+                        "is_driving": true
+                    },
+                    {
+                        "type": "linear",
+                        "point_one": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "point_two": [
+                            -3.7,
+                            -0.0,
+                            0.0
+                        ],
+                        "location": [
+                            -1.83242,
+                            -0.56741,
+                            0.0
+                        ],
+                        "orientation": "HorizontalDimensionOrientation",
+                        "is_driving": true
+                    },
+                    {
+                        "type": "linear",
+                        "point_one": [
+                            -0.1,
+                            2.05,
+                            0.0
+                        ],
+                        "point_two": [
+                            -0.1,
+                            0.45,
+                            0.0
+                        ],
+                        "location": [
+                            0.9957,
+                            1.30414,
+                            0.0
+                        ],
+                        "orientation": "VerticalDimensionOrientation",
+                        "is_driving": true
+                    },
+                    {
+                        "type": "offset",
+                        "curve_name": "Curve3",
+                        "entity_name": "Curve1",
+                        "location": [
+                            -4.98425,
+                            3.26762,
+                            0.0
+                        ],
+                        "is_driving": true
+                    },
+                    {
+                        "type": "offset",
+                        "curve_name": "Curve4",
+                        "entity_name": "Curve2",
+                        "location": [
+                            -0.38146,
+                            3.66023,
+                            0.0
+                        ],
+                        "is_driving": true
+                    }
+                ],
+                "constraints": []
+            }
+        },
+        {
+            "type": "extrude",
+            "name": "Extrude1",
+            "data": {
+                "type": "extrude",
+                "profiles": [
+                    {
+                        "type": "profile",
+                        "sketch_name": "Sketch1",
+                        "profile_name": "Profile0",
+                        "point_on_profile": [
+                            -1.85,
+                            2.275,
+                            0.0
+                        ]
+                    }
+                ],
+                "extent": {
+                    "type": "one_side",
+                    "extent_one": {
+                        "type": "distance",
+                        "distance": 4.0,
+                        "direction": "PositiveExtentDirection"
+                    },
+                    "taper_angle_one": 0.0
+                },
+                "start": {
+                    "type": "profile_plane"
+                },
+                "operation": {
+                    "type": "new_body",
+                    "body_names": [
+                        "Body1"
+                    ]
+                },
+                "appearances": [
+                    "Steel - Satin"
+                ],
+                "materials": [
+                    "Steel"
+                ]
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet1",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    0.0,
+                                    4.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    0.0,
+                                    2.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -0.0,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    0.0,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    0.0,
+                                    2.0,
+                                    -2.5
+                                ]
+                            }
+                        ],
+                        "radius": 0.15000000000000002,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet2",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    2.0,
+                                    -2.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "radius": 0.15000000000000002,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet3",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    2.0,
+                                    -2.05
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    2.0,
+                                    -0.45
+                                ]
+                            }
+                        ],
+                        "radius": 0.15000000000000002,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "sketch",
+            "name": "Sketch3",
+            "data": {
+                "type": "sketch",
+                "reference_plane": {
+                    "type": "custom_plane",
+                    "origin": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "normal": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ]
+                },
+                "sketch_curves": [
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve0",
+                        "center": [
+                            -3.55,
+                            -0.3,
+                            0.0
+                        ],
+                        "start": [
+                            -3.7,
+                            -0.3,
+                            0.0
+                        ],
+                        "end": [
+                            -3.55,
+                            -0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve1",
+                        "start": [
+                            -3.55,
+                            -0.45,
+                            0.0
+                        ],
+                        "end": [
+                            -0.1,
+                            -0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve2",
+                        "start": [
+                            -0.1,
+                            -0.45,
+                            0.0
+                        ],
+                        "end": [
+                            -0.1,
+                            -2.05,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve3",
+                        "start": [
+                            -0.1,
+                            -2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -3.55,
+                            -2.05,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve4",
+                        "center": [
+                            -3.55,
+                            -2.2,
+                            0.0
+                        ],
+                        "start": [
+                            -3.55,
+                            -2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -2.2,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve5",
+                        "start": [
+                            -3.7,
+                            -2.2,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -2.35,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve6",
+                        "center": [
+                            -3.55,
+                            -2.35,
+                            0.0
+                        ],
+                        "start": [
+                            -3.7,
+                            -2.35,
+                            0.0
+                        ],
+                        "end": [
+                            -3.55,
+                            -2.5,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve7",
+                        "start": [
+                            -3.55,
+                            -2.5,
+                            0.0
+                        ],
+                        "end": [
+                            -0.15,
+                            -2.5,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve8",
+                        "center": [
+                            -0.15,
+                            -2.35,
+                            0.0
+                        ],
+                        "start": [
+                            -0.15,
+                            -2.5,
+                            0.0
+                        ],
+                        "end": [
+                            -0.0,
+                            -2.35,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve9",
+                        "start": [
+                            -0.0,
+                            -2.35,
+                            0.0
+                        ],
+                        "end": [
+                            -0.0,
+                            -0.15,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve10",
+                        "center": [
+                            -0.15,
+                            -0.15,
+                            0.0
+                        ],
+                        "start": [
+                            -0.0,
+                            -0.15,
+                            0.0
+                        ],
+                        "end": [
+                            -0.15,
+                            0.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve11",
+                        "start": [
+                            -0.15,
+                            0.0,
+                            0.0
+                        ],
+                        "end": [
+                            -3.55,
+                            0.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "arc",
+                        "curve_name": "Curve12",
+                        "center": [
+                            -3.55,
+                            -0.15,
+                            0.0
+                        ],
+                        "start": [
+                            -3.55,
+                            0.0,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -0.15,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve13",
+                        "start": [
+                            -3.7,
+                            -0.15,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -0.3,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve14",
+                        "start": [
+                            -0.1,
+                            -2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -2.05,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve15",
+                        "start": [
+                            -3.7,
+                            -2.05,
+                            0.0
+                        ],
+                        "end": [
+                            -3.7,
+                            -0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve16",
+                        "start": [
+                            -3.7,
+                            -0.45,
+                            0.0
+                        ],
+                        "end": [
+                            -0.1,
+                            -0.45,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve18",
+                        "start": [
+                            0.4,
+                            0.5,
+                            0.0
+                        ],
+                        "end": [
+                            -4.1,
+                            0.5,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve19",
+                        "start": [
+                            -4.1,
+                            0.5,
+                            0.0
+                        ],
+                        "end": [
+                            -4.1,
+                            -3.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve20",
+                        "start": [
+                            -4.1,
+                            -3.0,
+                            0.0
+                        ],
+                        "end": [
+                            0.4,
+                            -3.0,
+                            0.0
+                        ],
+                        "is_construction": false
+                    },
+                    {
+                        "type": "line",
+                        "curve_name": "Curve21",
+                        "start": [
+                            0.4,
+                            -3.0,
+                            0.0
+                        ],
+                        "end": [
+                            0.4,
+                            0.5,
+                            0.0
+                        ],
+                        "is_construction": false
+                    }
+                ],
+                "sketch_profiles": [
+                    {
+                        "type": "sketch_profile",
+                        "profile_name": "Profile0",
+                        "profile_loops": [
+                            {
+                                "type": "sketch_profile_loop",
+                                "profile_loop_name": "ProfileLoop0",
+                                "curve_names": [
+                                    "Curve0",
+                                    "Curve10",
+                                    "Curve11",
+                                    "Curve12",
+                                    "Curve13",
+                                    "Curve14",
+                                    "Curve15",
+                                    "Curve16",
+                                    "Curve4",
+                                    "Curve5",
+                                    "Curve6",
+                                    "Curve7",
+                                    "Curve8",
+                                    "Curve9"
+                                ],
+                                "is_outer": false
+                            },
+                            {
+                                "type": "sketch_profile_loop",
+                                "profile_loop_name": "ProfileLoop1",
+                                "curve_names": [
+                                    "Curve18",
+                                    "Curve19",
+                                    "Curve20",
+                                    "Curve21"
+                                ],
+                                "is_outer": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "sketch_profile",
+                        "profile_name": "Profile1",
+                        "profile_loops": [
+                            {
+                                "type": "sketch_profile_loop",
+                                "profile_loop_name": "ProfileLoop0",
+                                "curve_names": [
+                                    "Curve0",
+                                    "Curve1",
+                                    "Curve10",
+                                    "Curve11",
+                                    "Curve12",
+                                    "Curve13",
+                                    "Curve2",
+                                    "Curve3",
+                                    "Curve4",
+                                    "Curve5",
+                                    "Curve6",
+                                    "Curve7",
+                                    "Curve8",
+                                    "Curve9"
+                                ],
+                                "is_outer": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "sketch_profile",
+                        "profile_name": "Profile2",
+                        "profile_loops": [
+                            {
+                                "type": "sketch_profile_loop",
+                                "profile_loop_name": "ProfileLoop0",
+                                "curve_names": [
+                                    "Curve1",
+                                    "Curve14",
+                                    "Curve15",
+                                    "Curve16",
+                                    "Curve2",
+                                    "Curve3"
+                                ],
+                                "is_outer": true
+                            }
+                        ]
+                    }
+                ],
+                "transform": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    -1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "dimensions": [
+                    {
+                        "type": "offset",
+                        "curve_name": "Curve2",
+                        "entity_name": "Curve21",
+                        "location": [
+                            1.81967,
+                            -0.86726,
+                            0.0
+                        ],
+                        "is_driving": true
+                    },
+                    {
+                        "type": "linear",
+                        "point_one": [
+                            -3.7,
+                            -0.45,
+                            0.0
+                        ],
+                        "point_two": [
+                            -0.1,
+                            -0.45,
+                            0.0
+                        ],
+                        "location": [
+                            -1.65976,
+                            -0.89886,
+                            0.0
+                        ],
+                        "orientation": "HorizontalDimensionOrientation",
+                        "is_driving": true
+                    },
+                    {
+                        "type": "linear",
+                        "point_one": [
+                            0.4,
+                            0.5,
+                            0.0
+                        ],
+                        "point_two": [
+                            -4.1,
+                            0.5,
+                            0.0
+                        ],
+                        "location": [
+                            -2.59772,
+                            0.99643,
+                            0.0
+                        ],
+                        "orientation": "HorizontalDimensionOrientation",
+                        "is_driving": true
+                    },
+                    {
+                        "type": "offset",
+                        "curve_name": "Curve11",
+                        "entity_name": "Curve18",
+                        "location": [
+                            0.70152,
+                            3.50036,
+                            0.0
+                        ],
+                        "is_driving": true
+                    },
+                    {
+                        "type": "offset",
+                        "curve_name": "Curve7",
+                        "entity_name": "Curve20",
+                        "location": [
+                            0.98584,
+                            -2.79901,
+                            0.0
+                        ],
+                        "is_driving": true
+                    }
+                ],
+                "constraints": []
+            }
+        },
+        {
+            "type": "extrude",
+            "name": "Extrude2",
+            "data": {
+                "type": "extrude",
+                "profiles": [
+                    {
+                        "type": "profile",
+                        "sketch_name": "Sketch3",
+                        "profile_name": "Profile1",
+                        "point_on_profile": [
+                            -1.85,
+                            -2.275,
+                            0.0
+                        ]
+                    },
+                    {
+                        "type": "profile",
+                        "sketch_name": "Sketch3",
+                        "profile_name": "Profile0",
+                        "point_on_profile": [
+                            -1.85,
+                            0.25,
+                            0.0
+                        ]
+                    }
+                ],
+                "extent": {
+                    "type": "one_side",
+                    "extent_one": {
+                        "type": "distance",
+                        "distance": 3.5,
+                        "direction": "PositiveExtentDirection"
+                    },
+                    "taper_angle_one": 0.0
+                },
+                "start": {
+                    "type": "profile_plane"
+                },
+                "operation": {
+                    "type": "new_body",
+                    "body_names": [
+                        "Body2"
+                    ]
+                },
+                "appearances": [
+                    "Paek (Beige)"
+                ],
+                "materials": [
+                    "Steel"
+                ]
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet4",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -0.1,
+                                    0.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -0.1,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    2.0,
+                                    -2.05
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body1",
+                                "start": [
+                                    -0.1,
+                                    0.0,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -0.1,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    2.0,
+                                    -0.45
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    0.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -0.1,
+                                    -3.5,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    -1.75,
+                                    -2.05
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    0.0,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -0.1,
+                                    -3.5,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    -1.75,
+                                    -0.45
+                                ]
+                            }
+                        ],
+                        "radius": 0.6000000000000001,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet5",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -4.1,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "end": [
+                                    -4.1,
+                                    -3.5,
+                                    -3.0
+                                ],
+                                "midpoint": [
+                                    -4.1,
+                                    -1.75,
+                                    -3.0
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -4.1,
+                                    0.0,
+                                    0.5
+                                ],
+                                "end": [
+                                    -4.1,
+                                    -3.5,
+                                    0.5
+                                ],
+                                "midpoint": [
+                                    -4.1,
+                                    -1.75,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.4,
+                                    0.0,
+                                    0.5
+                                ],
+                                "end": [
+                                    0.4,
+                                    -3.5,
+                                    0.5
+                                ],
+                                "midpoint": [
+                                    0.4,
+                                    -1.75,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.4,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "end": [
+                                    0.4,
+                                    -3.5,
+                                    -3.0
+                                ],
+                                "midpoint": [
+                                    0.4,
+                                    -1.75,
+                                    -3.0
+                                ]
+                            }
+                        ],
+                        "radius": 0.15000000000000002,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "chamfer",
+            "name": "Chamfer1",
+            "data": {
+                "type": "chamfer",
+                "edge_sets": [
+                    {
+                        "type": "two_distance",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    -3.5,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -0.7,
+                                    -3.5,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -2.2,
+                                    -3.5,
+                                    -0.45
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    -3.5,
+                                    -1.05
+                                ],
+                                "end": [
+                                    -0.7,
+                                    -3.5,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -0.39999999999999997,
+                                    -3.5,
+                                    -0.75
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    -3.5,
+                                    -1.05
+                                ],
+                                "end": [
+                                    -0.1,
+                                    -3.5,
+                                    -1.45
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    -3.5,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.7,
+                                    -3.5,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -0.1,
+                                    -3.5,
+                                    -1.45
+                                ],
+                                "midpoint": [
+                                    -0.39999999999999997,
+                                    -3.5,
+                                    -1.75
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.7,
+                                    -3.5,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -3.7,
+                                    -3.5,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -2.2,
+                                    -3.5,
+                                    -2.05
+                                ]
+                            }
+                        ],
+                        "distance_one": 0.2,
+                        "distance_two": 0.8,
+                        "flip_sides": false,
+                        "tangent_chain": false
+                    }
+                ],
+                "corner_type": "ChamferCornerType"
+            }
+        },
+        {
+            "type": "chamfer",
+            "name": "Chamfer2",
+            "data": {
+                "type": "chamfer",
+                "edge_sets": [
+                    {
+                        "type": "two_distance",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    -3.5,
+                                    -2.25
+                                ],
+                                "end": [
+                                    -3.7,
+                                    -3.5,
+                                    -0.25
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    -3.5,
+                                    -1.25
+                                ]
+                            }
+                        ],
+                        "distance_one": 0.2,
+                        "distance_two": 0.8,
+                        "flip_sides": false,
+                        "tangent_chain": false
+                    }
+                ],
+                "corner_type": "ChamferCornerType"
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet6",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -4.1,
+                                    0.0,
+                                    0.35
+                                ],
+                                "end": [
+                                    -4.1,
+                                    0.0,
+                                    -2.85
+                                ],
+                                "midpoint": [
+                                    -4.1,
+                                    0.0,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -4.1,
+                                    0.0,
+                                    -2.85
+                                ],
+                                "end": [
+                                    -3.95,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "midpoint": [
+                                    -4.025,
+                                    0.0,
+                                    -2.925
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.95,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "end": [
+                                    0.25,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "midpoint": [
+                                    -1.85,
+                                    0.0,
+                                    -3.0
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.25,
+                                    0.0,
+                                    -3.0
+                                ],
+                                "end": [
+                                    0.4,
+                                    0.0,
+                                    -2.85
+                                ],
+                                "midpoint": [
+                                    0.325,
+                                    0.0,
+                                    -2.925
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.4,
+                                    0.0,
+                                    -2.85
+                                ],
+                                "end": [
+                                    0.4,
+                                    0.0,
+                                    0.35
+                                ],
+                                "midpoint": [
+                                    0.4,
+                                    0.0,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.4,
+                                    0.0,
+                                    0.35
+                                ],
+                                "end": [
+                                    0.25,
+                                    0.0,
+                                    0.5
+                                ],
+                                "midpoint": [
+                                    0.325,
+                                    0.0,
+                                    0.425
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    0.25,
+                                    0.0,
+                                    0.5
+                                ],
+                                "end": [
+                                    -3.95,
+                                    0.0,
+                                    0.5
+                                ],
+                                "midpoint": [
+                                    -1.85,
+                                    0.0,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.95,
+                                    0.0,
+                                    0.5
+                                ],
+                                "end": [
+                                    -4.1,
+                                    0.0,
+                                    0.35
+                                ],
+                                "midpoint": [
+                                    -4.025,
+                                    0.0,
+                                    0.425
+                                ]
+                            }
+                        ],
+                        "radius": 0.2,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "combine",
+            "name": "Combine1",
+            "data": {
+                "type": "combine",
+                "target_body_name": "Body2",
+                "tool_bodies_names": [
+                    "Body1"
+                ],
+                "operation": "JoinFeatureOperation",
+                "is_new_component": false,
+                "is_keep_tool_bodies": false
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet7",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    0.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -3.7,
+                                    0.0,
+                                    -2.2
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    0.0,
+                                    -2.125
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -2.2
+                                ],
+                                "end": [
+                                    -3.7,
+                                    0.0,
+                                    -2.35
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    0.0,
+                                    -2.2750000000000004
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -2.35
+                                ],
+                                "end": [
+                                    -3.55,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    0.0,
+                                    -2.425
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    -0.15,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    -1.8499999999999999,
+                                    0.0,
+                                    -2.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.15,
+                                    0.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    -0.0,
+                                    0.0,
+                                    -2.35
+                                ],
+                                "midpoint": [
+                                    -0.075,
+                                    0.0,
+                                    -2.425
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.0,
+                                    0.0,
+                                    -2.35
+                                ],
+                                "end": [
+                                    -0.0,
+                                    0.0,
+                                    -0.15
+                                ],
+                                "midpoint": [
+                                    -0.0,
+                                    0.0,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.0,
+                                    0.0,
+                                    -0.15
+                                ],
+                                "end": [
+                                    -0.15,
+                                    0.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    -0.075,
+                                    0.0,
+                                    -0.075
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.15,
+                                    0.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    -3.55,
+                                    0.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    -1.8499999999999999,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    0.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    -3.7,
+                                    0.0,
+                                    -0.15
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    0.0,
+                                    -0.075
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -0.15
+                                ],
+                                "end": [
+                                    -3.7,
+                                    0.0,
+                                    -0.3
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    0.0,
+                                    -0.22499999999999998
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    0.0,
+                                    -0.3
+                                ],
+                                "end": [
+                                    -3.55,
+                                    0.0,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    0.0,
+                                    -0.375
+                                ]
+                            }
+                        ],
+                        "radius": 0.15000000000000002,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        },
+        {
+            "type": "fillet",
+            "name": "Fillet8",
+            "data": {
+                "type": "fillet",
+                "edge_sets": [
+                    {
+                        "type": "constant",
+                        "edges": [
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.0,
+                                    4.0,
+                                    -0.15
+                                ],
+                                "end": [
+                                    -0.15,
+                                    4.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    -0.075,
+                                    4.0,
+                                    -0.075
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.0,
+                                    4.0,
+                                    -0.15
+                                ],
+                                "end": [
+                                    -0.0,
+                                    4.0,
+                                    -2.35
+                                ],
+                                "midpoint": [
+                                    -0.0,
+                                    4.0,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.15,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    -0.0,
+                                    4.0,
+                                    -2.35
+                                ],
+                                "midpoint": [
+                                    -0.075,
+                                    4.0,
+                                    -2.425
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.15,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "end": [
+                                    -3.55,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    -1.8499999999999999,
+                                    4.0,
+                                    -2.5
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    4.0,
+                                    -2.35
+                                ],
+                                "end": [
+                                    -3.55,
+                                    4.0,
+                                    -2.5
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    4.0,
+                                    -2.425
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    4.0,
+                                    -2.35
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -2.2
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    4.0,
+                                    -2.2750000000000004
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -2.2
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    4.0,
+                                    -2.125
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "end": [
+                                    -0.7,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -2.125,
+                                    4.0,
+                                    -2.05
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    4.0,
+                                    -1.45
+                                ],
+                                "end": [
+                                    -0.7,
+                                    4.0,
+                                    -2.05
+                                ],
+                                "midpoint": [
+                                    -0.39999999999999997,
+                                    4.0,
+                                    -1.75
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.1,
+                                    4.0,
+                                    -1.45
+                                ],
+                                "end": [
+                                    -0.1,
+                                    4.0,
+                                    -1.05
+                                ],
+                                "midpoint": [
+                                    -0.1,
+                                    4.0,
+                                    -1.25
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.7,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -0.1,
+                                    4.0,
+                                    -1.05
+                                ],
+                                "midpoint": [
+                                    -0.39999999999999997,
+                                    4.0,
+                                    -0.75
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -0.7,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "end": [
+                                    -3.55,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -2.125,
+                                    4.0,
+                                    -0.45
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    4.0,
+                                    -0.3
+                                ],
+                                "end": [
+                                    -3.55,
+                                    4.0,
+                                    -0.45
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    4.0,
+                                    -0.375
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.7,
+                                    4.0,
+                                    -0.3
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -0.15
+                                ],
+                                "midpoint": [
+                                    -3.7,
+                                    4.0,
+                                    -0.22499999999999998
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    4.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    -3.7,
+                                    4.0,
+                                    -0.15
+                                ],
+                                "midpoint": [
+                                    -3.625,
+                                    4.0,
+                                    -0.075
+                                ]
+                            },
+                            {
+                                "type": "brep_edge",
+                                "body_name": "Body2",
+                                "start": [
+                                    -3.55,
+                                    4.0,
+                                    0.0
+                                ],
+                                "end": [
+                                    -0.15,
+                                    4.0,
+                                    0.0
+                                ],
+                                "midpoint": [
+                                    -1.8499999999999999,
+                                    4.0,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "radius": 0.1,
+                        "tangent_chain": false,
+                        "tangency_weight": 1.0
+                    }
+                ],
+                "corner_type": "rolling_ball"
+            }
+        }
+    ]
+}
